@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.Header-Menu {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./Images/HeaderImage.jpg);
+}
+body {
+  background-color: #ffffff;
+}
+.CompanyName {
+  font-size: 24px;
+  font-family: "Hammersmith One";
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 128px;
+  top: 48px;
+}
+.Button-Container {
+  position: absolute;
+  right: 96px;
+  top: 48px;
+}
+.Button {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 48px;
+}
+.Button:hover {
+  border-bottom: 2px solid #ffffff;
+}
+.Tagline-Container {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 384px;
+}
+.Tagline {
+  font-family: "Hammersmith One";
+  font-size: 92px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.QuoteButton {
+  display: inline-block;
+  padding: 24px 64px;
+  background-color: #ffffff;
+  color: #161616;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Open Sans";
+  margin-top: 48px;
+  transition: 0.2s;
+}
+.QuoteButton:hover {
+  background-color: #161616;
+  color: #ffffff;
+}
+.Page-About {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutWrapper {
+  width: 512px;
+  text-align: center;
+}
+.About-Header {
+  font-size: 72px;
+  font-family: "Hammersmith One";
+  font-weight: 400;
+  color: #000000;
+}
+.CompanyHistory {
+  color: #323232;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+}
+.ButtonAbout {
+  display: block;
+  width: 192px;
+  height: 64px;
+  line-height: 64px;
+  background-color: #161616;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 48px;
+  user-select: none;
+  transition: 0.2s;
+}
+.ButtonAbout:hover {
+  background-color: #323232;
+  color: #ffffff;
+}
+.Page-Projects {
+  height: 100vh;
+  background-color: #000000;
+}
+.PageName {
+  color: #ffffff;
+  font-size: 64px;
+  font-family: "Hammersmith One";
+  font-weight: 500;
+  text-align: center;
+  padding-top: 128px;
+}
+.Gallery {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.ItemName {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+.Projects-Button {
+  display: block;
+  width: 192px;
+  height: 64px;
+  line-height: 64px;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #000000;
+  margin: auto;
+  margin-top: 48px;
+  user-select: none;
+  transition: 0.2s;
+}
+.Projects-Button:hover {
+  background-color: #323232;
+  color: #ffffff;
+}
+.Page-Services {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+.Services-Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 72%;
+  margin: auto;
+}
+.Services-Left {
+  width: 40%;
+}
+.Services-Text {
+  font-family: "Hammersmith One";
+  font-size: 80px;
+  font-weight: 500;
+  color: #000000;
+}
+.About-Services {
+  color: #323232;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 32px;
+}
+.Services-Button {
+  display: inline-block;
+  padding: 24px 48px;
+  background-color: #000000;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 64px;
+  transition: 0.2s;
+}
+.Services-Button:hover {
+  background-color: #323232;
+}
+.Services-Right {
+  width: 40%;
+  list-style: none;
+}
+.Construction-Type {
+  display: block;
+  font-size: 24px;
+  color: #323232;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.Item-Number {
+  margin-right: 32px;
+  font-size: 64px;
+  font-family: "Hammersmith One";
+  color: #000000;
+}
